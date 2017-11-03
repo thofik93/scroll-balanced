@@ -123,6 +123,7 @@ pre, code {
   margin-bottom: 30px;
   > img {
     width: 444px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -161,4 +162,15 @@ pre, code {
 
 .wrapper {
   padding: 60px 0;
+}
+
+@media(max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+
+  .wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
