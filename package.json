@@ -1,0 +1,19 @@
+{
+  "name": "scroll-balanced",
+  "version": "1.0.0",
+  "description": "jquery plugin for balanced scroll content",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thofik93/scroll-balanced.git"
+  },
+  "author": "thofik wiranata - thofikwiranata.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thofik93/scroll-balanced/issues"
+  },
+  "homepage": "https://github.com/thofik93/scroll-balanced#readme"
+}

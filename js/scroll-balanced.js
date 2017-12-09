@@ -103,6 +103,20 @@
     return filterVal
   }
 
+  // SCROLL BALANCED PLUGIN DEFINITION
+  // ========================
+
+  function Plugin() {
+      return this.each(function () {
+        var $this   = $(this)
+        var data    = $this.data('montase.ui.scrollbalanced')
+        
+        if (!data) $this.data('montase.ui.scrollbalanced', (data = new ScrollBalanced(this)))
+        if (typeof option == 'number') data.to(option)
+      })
+  }
+
+
 
   $.fn.scrollbalanced             = Plugin
   $.fn.scrollbalanced.Constructor = ScrollBalanced
